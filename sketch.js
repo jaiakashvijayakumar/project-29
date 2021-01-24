@@ -74,13 +74,11 @@ function setup() {
 
   sling = new Chain(this.ball,{x:150, y:160});
 
-  engine = Engine.create();
-    world = engine.world;
-
+ 
 }
 
 function draw() {
-  background("grey");
+  background("Darkblue");
  Engine.update(engine);
 
   fill(rgb(135, 205, 236));
@@ -91,13 +89,13 @@ function draw() {
   block4.display();
   block5.display();
 
-  fill("lightBlue");
+  fill("green");
   block6.display();
   block7.display();
   block8.display();
   block9.display();
 
-  fill("lightPink");
+  fill("red");
   bolck10.display();
   block11.display();
   block12.display();
@@ -111,12 +109,12 @@ function draw() {
   block16.display();
   block17.display();
   block18.display();
-  fill("lightGreen");
+  fill("orange");
 
   block19.display();
   block20.display();
   block21.display();
-  fill("lime");
+  fill("purple");
 
   block22.display();
 
